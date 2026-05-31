@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+    <style>
+        table,tr,th,td,input{border: 1px solid black;
+        border-collapse: collapse;}
+
+    </style>
+    <body>
+        <form>
+            <table>
+                <thead>
+                    <tr style="background-color: rgb(255, 135, 191);">
+                        <th>Name</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sex</td>
+                        <td>
+                            <label for="male"></label>
+                            <input type="radio" name="Sex_status" id="male">Male
+                            <br>
+                            <label for="female"></label>
+                            <input type="radio" name="Sex_status" id="female">Famle
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>What do you like to eat?</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="All Like">All Like</option>
+                                <option value="BBQ">BBQ</option>
+                                <option value="hot pot">Hot Pot</option>
+                                <option value="Mala Tang">Mala Tang</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>What do you do on your days off?</td>
+                        <td>
+                            <label for="sleep"></label>
+                            <input type="checkbox">sleep
+                            <br>
+                            <label for="Going out with friends"></label>
+                            <input type="checkbox">Going out with friends
+                            <br>
+                            <label for="shopping"></label>
+                            <input type="checkbox">shopping
+                            <br>
+                            <label for="Cleaning"></label>
+                            <input type="checkbox">Cleaning
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Describe your hobbies:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <textarea name="" id="" cols="65" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Enter my information">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
